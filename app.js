@@ -20,6 +20,7 @@ function agregarAmigo(){
         alert("Error: El campo de nombre no puede estar vacío.");
         return;
     }
+    //compara si el valor agregado es o contiene un numero
     if (/\d/.test(amigoAgregado)) {
         alert("Error: El nombre no puede contener números.");
         limpiarCaja()
